@@ -3,4 +3,4 @@
 **Color flipper** is an app which changes random background color by click on a button.
 It's made up of _HTML_, _CSS_ & _Vanilla Javascript_.
 
-Deployed link: [color-flipper] (https://color-flipper-vanilla-js.netlify.app/)
+Deployed link: [color-flipper](https://color-flipper-vanilla-js.netlify.app/)
