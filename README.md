@@ -6,4 +6,4 @@ _Color_ of the count value also changes when its greater or lower than zero to g
 
 It's made up of _HTML_, _CSS_ & _Vanilla Javascript_
 
-visit [simple-counter]() app
+visit [simple-counter](https://vanilla-js-simple-counter.netlify.app/) app
