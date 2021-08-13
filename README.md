@@ -1,19 +1,7 @@
-# **Vanilla-JS-Projects**
+# Navbar
 
-# Color flipper
+**Navbar** is a responsive Navbar which adjust according to the different screens sizes like laptop, tab & mobile phones.
 
-**Color flipper** is an app which changes random background color by click on a button.
+It's made up of _HTML5_, _CSS3_ & Vanilla _Javascript_.
 
-It's made up of _HTML_, _CSS_ & Vanilla _Javascript_.
-
-visit [color-flipper](https://vanilla-js-color-flipper.netlify.app/)
-
-# Simple counter
-
-**Simple Counter** is a counter app. User can **increase** & **decrease** or **reset** the count.
-
-**Color** of the count value also changes when its greater or lower than zero to green and red respectively.
-
-It's made up of _HTML_, _CSS_ & Vanilla _Javascript_
-
-visit [simple-counter](https://vanilla-js-simple-counter.netlify.app/)
+visit [Navbar]()
