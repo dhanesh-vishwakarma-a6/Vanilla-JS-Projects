@@ -4,4 +4,4 @@
 
 It's made up of _HTML5_, _CSS3_ & Vanilla _Javascript_.
 
-visit [Navbar]()
+visit [Navbar](https://vanilla-js-navbar.netlify.app/)
