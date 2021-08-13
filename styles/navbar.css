@@ -89,6 +89,10 @@ nav a:hover {
   .social-icons {
     display: none;
   }
+
+  .sidebar {
+    display: inline-block;
+  }
 }
 
 /* Mobile phone screens */
@@ -103,5 +107,9 @@ nav a:hover {
 
   .links {
     display: none;
+  }
+
+  .sidebar {
+    display: inline-block;
   }
 }
