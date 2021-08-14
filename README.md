@@ -4,4 +4,6 @@
 
 It's made up of _HTML_, _CSS_ & Vanilla _Javascript_.
 
-visit [sidebar]()
+visit [sidebar](https://vanilla-js-sidebar.netlify.app/)
+
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/Project-5-Sidebar)
