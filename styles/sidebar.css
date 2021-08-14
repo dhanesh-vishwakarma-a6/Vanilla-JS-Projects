@@ -1,0 +1,95 @@
+/* * side bar toggle buttons */
+#btn-sidebar,
+#btn-close {
+  font-size: 3rem;
+  color: var(--color-primary-3);
+  background-color: inherit;
+  border: none;
+
+  cursor: pointer;
+}
+
+#btn-sidebar:hover {
+  background-color: var(--color-grey);
+}
+
+#btn-close {
+  color: var(--color-red);
+}
+
+/* * sidebar */
+.sidebar {
+  display: none;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+
+  width: 15rem;
+  height: 100%;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* * logo */
+.logo {
+  width: 32px;
+  height: 32px;
+
+  margin-top: 0.5rem;
+}
+
+/* * anchors */
+aside a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+aside a:link,
+aside a:visited,
+aside a:focus {
+  text-decoration: none;
+  color: var(--color-primary-2);
+  background: transparent;
+}
+
+/* * links */
+aside li {
+  list-style-type: none;
+}
+
+.sidebar-links {
+  height: 80%;
+  line-height: 1.5;
+}
+
+.link a {
+  font-size: 1.5rem;
+}
+
+.link {
+  text-transform: capitalize;
+  padding: 1rem 3rem;
+}
+
+.link:hover {
+  color: var(--color-primary-3);
+  background-color: var(--color-primary-5);
+}
+
+/* * social media */
+.social-icons {
+  display: flex;
+  justify-content: center;
+
+  margin: 1rem;
+}
+.icon {
+  color: var(--color-dark);
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+.icon:hover {
+  opacity: 0.85;
+}
