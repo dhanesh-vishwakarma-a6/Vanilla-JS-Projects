@@ -106,6 +106,7 @@ main .box {
   margin: 2rem 4rem;
 
   transition: var(--transition);
+  cursor: pointer;
 }
 
 .btn-outline-modal:hover {
