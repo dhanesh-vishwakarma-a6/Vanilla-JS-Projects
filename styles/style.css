@@ -1,0 +1,118 @@
+/* * imports */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@300;500;700&family=Roboto:wght@300;500;700&family=Hahmlet:wght@300;500;700&display=swap");
+
+/* icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/* modules */
+@import url("./modal.css");
+
+/* * root */
+:root {
+  --clr-blue-1: #102a42;
+  --clr-blue-2: #49a6e9;
+  --clr-blue-3: #8bcbf9;
+  --clr-blue-4: #ebf7ff;
+
+  --clr-black: #222;
+  --clr-white-2: #f1f5f8;
+  --clr-white-1: #fff;
+
+  --clr-grey-1: #65809a;
+  --clr-grey-2: #ecf0f1;
+
+  --clr-red: #e74c3c;
+  --clr-green: #1abc9c;
+
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+
+  --shadow-light: 5px 0 15px 5px rgba(0, 0, 0, 0.2);
+  --shadow-dark: 5px 0 15px 5px rgba(0, 0, 0, 0.4);
+
+  --ff-1: "Raleway", "Poppins", "Roboto", "Hahmlet";
+  --ff-2: "Courier New", "Courier", "monospace";
+
+  --transition: all 0.3s linear;
+}
+
+/* * global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* * body */
+html,
+body {
+  background-color: var(--clr-grey-2);
+  font-family: var(--ff-primary);
+  text-align: center;
+}
+
+/* container */
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.page-heading {
+  color: var(--clr-blue-2);
+  background-color: var(--clr-white-1);
+
+  height: 3rem;
+  width: 100vw;
+
+  padding-top: 0.7rem;
+  box-shadow: var(--shadow-light);
+}
+
+/* * main  */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* * modal toggle */
+main .box {
+  background-color: var(--clr-white-1);
+  padding: 1rem 0;
+  border-radius: var(--radius);
+}
+
+.btn-outline-modal {
+  color: var(--clr-white-1);
+  background-color: var(--clr-blue-2);
+
+  align-self: auto;
+
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--clr-blue-2);
+  border-radius: var(--radius);
+  margin: 2rem 4rem;
+
+  transition: var(--transition);
+}
+
+.btn-outline-modal:hover {
+  color: var(--clr-blue-2);
+  background-color: var(--clr-white-1);
+}
+
+/* * footer */
+.page-footer {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
