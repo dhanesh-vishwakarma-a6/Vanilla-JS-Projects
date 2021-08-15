@@ -47,7 +47,10 @@
 /* * body */
 html,
 body {
-  background-color: var(--clr-grey-2);
+  background-image: url("https://res.cloudinary.com/ddlvcqggy/image/upload/v1629043008/Vanilla%20Javascript%20Projects/Backgrounds/forest-1_oteqkp.jpg");
+  background-repeat: round;
+  object-fit: cover;
+
   font-family: var(--ff-primary);
   text-align: center;
 }
@@ -55,7 +58,7 @@ body {
 /* container */
 .container {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   justify-content: center;
   align-items: center;
 
@@ -70,7 +73,7 @@ body {
   width: 100vw;
 
   padding-top: 0.7rem;
-  box-shadow: var(--shadow-light);
+  box-shadow: var(--shadow-dark);
 }
 
 /* * main  */
@@ -112,6 +115,8 @@ main .box {
 
 /* * footer */
 .page-footer {
+  color: var(--clr-white-1);
+  font-weight: 700;
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
