@@ -1,5 +1,3 @@
-# **Vanilla-JS-Projects**
-
 # FAQ page
 
 **FAQ page** .
