@@ -13,6 +13,8 @@
 ==============
 */
 :root {
+  --clr-grey-1: hsl(209, 61%, 16%);
+
   /* colors */
   --clr-gold: #c59d5f;
   --clr-black: #222;
