@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@300;500;700&family=Roboto:wght@300;500;700&family=Hahmlet:wght@300;500;700&display=swap");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+@import url("./navbar.css");
+
+:root {
+  --color-primary-1: #102a42;
+  --color-primary-2: #65809a;
+  --color-primary-3: #49a6e9;
+  --color-primary-4: #8bcbf9;
+  --color-primary-5: #ebf7ff;
+
+  --color-dark: #222;
+  --color-grey: #ecf0f1;
+  --color-light: #f1f5f8;
+  --color-white: #fff;
+
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+
+  --shadow-light: 5px 0 15px 5px rgba(0, 0, 0, 0.2);
+  --shadow-dark: 5px 0 15px 5px rgba(0, 0, 0, 0.4);
+
+  --ff-primary: "Raleway", "Poppins", "Roboto", "Hahmlet";
+  --ff-secondary: "Courier New", "Courier", "monospace";
+
+  --transition: all 0.3s linear;
+}
+
+/* * global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--color-grey);
+  font-family: var(--ff-primary);
+  text-align: center;
+}
+
+/* * contianer */
+.container-pancake {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: var(--spacing);
+
+  height: 100vh;
+}
+
+/* * footer */
+footer {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}

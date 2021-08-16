@@ -1,0 +1,115 @@
+/* * navigation */
+nav {
+  display: inline-block;
+  background-color: var(--color-white);
+  height: 4rem;
+
+  font-size: 1rem;
+  letter-spacing: var(--spacing);
+
+  padding-top: 1rem;
+  box-shadow: var(--shadow-light);
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+
+  margin: 0 var(--spacing);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  text-decoration: none;
+  color: var(--color-primary-2);
+  background: transparent;
+}
+
+nav a:hover {
+  color: var(--color-primary-3);
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 5rem;
+}
+
+/* main logo */
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* pages links */
+.links {
+  font-size: 1.1rem;
+  color: var(--color-primary-4);
+}
+
+/* social icons */
+.icon {
+  color: var(--color-dark);
+  font-size: 1.5rem;
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+/* side bar */
+.sidebar {
+  display: none;
+}
+
+#btn-sidebar {
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+#btn-sidebar:hover {
+  background: var(--color-grey);
+}
+
+/* * media queries */
+/* tablet screens */
+@media screen and (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
+
+  .sidebar {
+    display: inline-block;
+  }
+}
+
+/* Mobile phone screens */
+@media screen and (max-width: 375px) {
+  .nav-center {
+    padding: 0 2rem;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .sidebar {
+    display: inline-block;
+  }
+}
