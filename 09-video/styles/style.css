@@ -1,0 +1,124 @@
+/* 
+==========
+IMPORTS
+==========
+*/
+
+@import url("./global.css");
+
+/* 
+==========
+VIDEO
+==========
+*/
+
+/* * ----- preloader ----- */
+.preloader {
+  position: fixed;
+  visibility: visible;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: var(--clr-white);
+  transition: var(--transition);
+  z-index: 999;
+}
+
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
+}
+
+.video-container {
+  position: absolute;
+  object-fit: cover;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: -2;
+}
+
+/* * ----- header ----- */
+header {
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+}
+
+/* creates a dim background effect */
+header::after {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+h1 {
+  color: var(--clr-white);
+}
+
+/* * ----- switch button ----- */
+.switch-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  bottom: 7%;
+  left: 7%;
+  width: 7rem;
+  height: 2rem;
+
+  border-radius: var(--radius);
+  border: none;
+
+  transition: var(--transition);
+}
+
+.switch-btn span {
+  display: inline-block;
+
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  color: var(--clr-primary-5);
+
+  cursor: pointer;
+}
+
+.switch {
+  position: absolute;
+  display: block;
+
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background: var(--clr-primary-5);
+  margin: 0;
+  border-radius: var(--radius);
+
+  transition: var(--transition);
+}
+
+.slide .switch {
+  left: 50%;
+}
