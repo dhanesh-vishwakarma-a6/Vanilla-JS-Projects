@@ -55,3 +55,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Menu](https://vanilla-js-menu.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/08-menu)
+
+# Video
+
+**Video** is background video with play & pause feature. This a common feature found in a lot of websites. It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Video](https://vanilla-js-video.netlify.app/) &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/09-video)
