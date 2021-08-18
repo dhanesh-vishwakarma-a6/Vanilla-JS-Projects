@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Video</title>
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" />
+    </div>
+    <!-- header -->
+    <header>
+      <video class="video-container" muted autoplay loop>
+        <source
+          src="https://res.cloudinary.com/ddlvcqggy/video/upload/v1629277270/Vanilla%20Javascript%20Projects/09-video/video_dysq6j.mp4"
+        />
+      </video>
+      <h1>video project</h1>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>Play</span>
+        <span>Pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <!-- javascript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
