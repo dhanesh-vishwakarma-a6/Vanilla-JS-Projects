@@ -34,7 +34,6 @@ navToggle.addEventListener("click", function () {
     }
 })
 
-
 // * ----- fixed navbar -----
 window.addEventListener("scroll", function () {
     const scrollHeight = window.pageYOffset
@@ -55,6 +54,37 @@ window.addEventListener("scroll", function () {
     }
 })
 
-
 // * ----- smooth scroll -----
 // select links
+scrollLinks.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+        event.preventDefault()
+
+        // getting the exact position of the section
+        const id = event.currentTarget.getAttribute("href").slice(1)
+        const element = document.getElementById(id)
+
+        // calculate the heights
+        const navHeight = navbar.getBoundingClientRect().height
+        const containerHeight = linksContainer.getBoundingClientRect().height
+        const fixedNav = navbar.classList.contains("fixed-nav")
+
+        /* sets the position just below the navbar else 
+        the top part of the section will get hidden behind the fixed navbar */
+        let position = element.offsetTop - navHeight
+
+        // fixes the scrolling error after first scroll (on normal screens)
+        if (!fixedNav) position -= navHeight
+
+        // fixes the scrolling error after first scroll (on small screens)
+        if (navHeight > 82) position += containerHeight
+
+        window.scrollTo({
+            left: 0,
+            top: position
+        })
+
+        // collapses the navbar on small screen after clicking on the link.
+        linksContainer.style.height = 0
+    })
+})
