@@ -58,39 +58,3 @@ window.addEventListener("scroll", function () {
 
 // * ----- smooth scroll -----
 // select links
-scrollLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-        // event.preventDefault()
-
-        // getting the exact position of the section
-        const id = event.currentTarget.getAttribute("href").slice(1)
-        const element = document.getElementById(id)
-
-        // calculate the heights
-        const navHeight = navbar.getBoundingClientRect().height
-        const containerHeight = linksContainer.getBoundingClientRect().height
-        const fixedNav = navbar.classList.contains("fixed-nav")
-
-        // fixes the height error after fisrt scroll (on normal screens)
-        if (!fixedNav) {
-            position -= navHeight
-        }
-
-        // // fixes the height error after fisrt scroll (on small screens)
-        // if (navHeight > 82) {
-        //     position += containerHeight
-        // }
-
-        // sets the position just below the navbar else it will get hidden behind the navbar
-        let position = element.offsetTop - navHeight
-
-        // scrolls to exact position
-        window.scrollTo({
-            left: 0,
-            top: position
-        })
-
-        // collapses the navbar on small screen after clicking on the link.
-        linksContainer.style.height = 0
-    })
-})
