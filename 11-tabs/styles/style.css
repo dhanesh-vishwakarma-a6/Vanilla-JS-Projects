@@ -60,7 +60,7 @@ About
   padding: 2rem 1.5rem;
 }
 
-/* * ----- buttons ------ */
+/* * ----- Tabs ------ */
 .btn-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -97,7 +97,7 @@ About
   color: var(--clr-primary-5);
 }
 
-/* hide content */
+/* * ----- Hide Content ----- */
 .content {
   display: none;
 }
