@@ -62,3 +62,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Video](https://vanilla-js-video.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/09-video)
+
+# Scroll
+
+**Scroll** a navbar that slides down when scrolling and then stays at a fixed position at a certain height. This is a popular feature found on many professional websites. It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Scroll](https://vanilla-js-scroll.netlify.app/) &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/10-scroll)
