@@ -69,3 +69,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Scroll](https://vanilla-js-scroll.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/10-scroll)
+
+# Tabs
+
+**Tabs** will display different content which is useful when creating single page application (SPA). It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Tabs](https://vanilla-js-tabs.netlify.app/) &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/11-tabs)
