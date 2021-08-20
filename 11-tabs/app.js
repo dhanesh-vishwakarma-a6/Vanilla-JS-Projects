@@ -18,8 +18,8 @@ about.addEventListener("click", function (event) {
             // inactive all other articles
             article.classList.remove("active")
             // active the current article
-            const element = document.getElementById(id)
-            element.classList.add("active")
+            const content = document.getElementById(id)
+            content.classList.add("active")
         })
     }
 })
