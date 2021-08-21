@@ -1,0 +1,80 @@
+/* 
+==========
+Import
+==========
+*/
+
+@import url("./global.css");
+
+/* 
+==========
+Countdown
+==========
+*/
+
+/* * --- Gift ---- */
+.gift-img {
+  margin-bottom: 2rem;
+}
+
+.gift-info h3 {
+  text-transform: uppercase;
+  color: var(--clr-primary-3);
+}
+
+.gift-info p {
+  color: var(--clr-grey-6);
+  margin: 2rem 0;
+}
+
+.date {
+  color: var(--clr-grey-5);
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw;
+  }
+
+  .gift-img {
+    margin-bottom: 0;
+  }
+}
+
+/* * --- Deadline --- */
+.deadline {
+  display: flex;
+}
+
+.deadline-format {
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  color: var(--clr-white);
+  background: var(--clr-grey-1);
+
+  width: 5rem;
+  height: 5rem;
+
+  margin-right: 1rem;
+}
+
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  font-size: 0.85rem;
+}
+
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  letter-spacing: var(--spacing);
+  margin-bottom: 0.25rem;
+}
