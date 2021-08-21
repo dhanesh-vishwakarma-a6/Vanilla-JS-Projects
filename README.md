@@ -81,5 +81,5 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 **Countdown Timer** is a countdown clock which can be used when a new product is coming out or a sale is about to end on an ecommerce site. It's made by _HTML3_, _CSS3_ & _Javascript_
 
-Preview [Countdown Timer](https://vanilla-js-giveaway-countdown.netlify.app/) &
+Preview [Countdown Timer](https://vanilla-js-countdown-clock.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/12-countdown-timer)
