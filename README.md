@@ -83,3 +83,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Countdown Timer](https://vanilla-js-countdown-clock.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/12-countdown-timer)
+
+# Lorem Ipsum
+
+**Lorem Ipsum** is a placeholder text generator which generates a amount of paragraphs asked. It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Lorem Ipsum]() &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/13-lorem-ipsum)
