@@ -88,5 +88,5 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 **Lorem Ipsum** is a placeholder text generator which generates a amount of paragraphs asked. It's made by _HTML3_, _CSS3_ & _Javascript_
 
-Preview [Lorem Ipsum]() &
+Preview [Lorem Ipsum](https://vanilla-js-lorem-ipsum.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/13-lorem-ipsum)
