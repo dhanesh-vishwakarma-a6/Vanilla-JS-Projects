@@ -7,13 +7,10 @@
 // Event listeners
 
 
-
 // functions
 
 
-
 // Local Storage
-
 
 
 // Setup Items
