@@ -90,3 +90,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Lorem Ipsum](https://vanilla-js-lorem-ipsum.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/13-lorem-ipsum)
+
+# Grocery Bud
+
+**Grocery Bud** is grocery list with simple CRUD (Create, Read, Update & Delete) operation application that uses local storage to store list data. It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Grocery Bud](https://vanilla-js-grocery-bud.netlify.app/) &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/14-grocery-bud)
