@@ -219,10 +219,10 @@ main {
 
 .section-center {
   width: 90vw;
-  margin: 5rem auto;
-  max-width: 1170px;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
 }
-
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
