@@ -1,0 +1,208 @@
+/* 
+==========
+Import
+==========
+*/
+
+@import url("./global.css");
+
+/*
+=============== 
+Grocery List
+===============
+*/
+
+/* * --- section-center --- */
+.section-center {
+  background: var(--clr-white);
+
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+
+  transition: var(--transition);
+}
+
+.section-center:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+/* * --- alert ---- */
+.alert {
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  height: 1.25rem;
+  margin-bottom: 1rem;
+
+  font-size: 0.7rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+
+  border-radius: 0.25rem;
+}
+
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+
+/* * --- form --- */
+.grocery-form h3 {
+  color: var(--clr-primary-1);
+  text-align: center;
+
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+
+#grocery {
+  flex: 1 0 auto;
+
+  font-size: 1rem;
+  color: var(--clr-grey-5);
+
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+  background: var(--clr-grey-10);
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-color: transparent;
+}
+
+#grocery::placeholder {
+  font-family: var(--ff-secondary);
+  color: var(--clr-grey-5);
+}
+
+.submit-btn {
+  display: grid;
+  align-items: center;
+  flex: 0 0 5rem;
+
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+
+  padding: 0.25rem;
+
+  background: var(--clr-primary-8);
+  border-color: transparent;
+
+  border-radius: 0 var(--radius) var(--radius) 0;
+
+  transition: var(--transition);
+  content: var(--clr-primary-5);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+
+.grocery-container {
+  margin-top: 2rem;
+  transition: var(--transition);
+  visibility: hidden;
+}
+
+.show-container {
+  visibility: visible;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-transform: capitalize;
+
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: var(--radius);
+
+  transition: var(--transition);
+}
+
+.grocery-item:hover {
+  color: var(--clr-grey-5);
+  background: var(--clr-grey-10);
+}
+
+.grocery-item:hover .title {
+  color: var(--clr-grey-5);
+}
+
+.title {
+  color: var(--clr-grey-1);
+  letter-spacing: 2px;
+
+  margin-bottom: 0;
+
+  transition: var(--transition);
+}
+
+/* * grocery buttons */
+
+.edit-btn,
+.delete-btn {
+  font-size: 0.7rem;
+  background: transparent;
+
+  margin: 0 0.15rem;
+  border-color: transparent;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.edit-btn {
+  color: var(--clr-green-light);
+}
+
+.edit-btn:hover {
+  color: var(--clr-green-dark);
+}
+
+.delete-btn {
+  color: var(--clr-red-light);
+}
+
+.delete-btn:hover {
+  color: var(--clr-red-dark);
+}
+
+.clear-btn {
+  display: grid;
+  align-items: center;
+
+  color: var(--clr-red-light);
+  font-size: 0.85rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+
+  width: 10rem;
+  height: 1.5rem;
+
+  background: transparent;
+  border-color: transparent;
+  margin-top: 1.25rem;
+  margin: 0 auto;
+
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: var(--clr-red-dark);
+}
