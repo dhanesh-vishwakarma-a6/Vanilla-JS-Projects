@@ -97,3 +97,10 @@ view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Proje
 
 Preview [Grocery Bud](https://vanilla-js-grocery-bud.netlify.app/) &
 view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/14-grocery-bud)
+
+# Slider
+
+**Slider** is image slider that can be used on any website to display picture. It's made by _HTML3_, _CSS3_ & _Javascript_
+
+Preview [Slider](https://vanilla-js-image-slider.netlify.app/) &
+view code on [Github](https://github.com/dhanesh-vishwakarma-a6/Vanilla-JS-Projects/tree/main/15-slider)
